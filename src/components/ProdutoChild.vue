@@ -7,7 +7,7 @@
 
 <template>
     <li>
-         {{ nome }} - R$ {{ formataPreco(preco) }} ({{ categoria }})
+         {{ nome }} - {{ formataPreco(preco) }} ({{ categoria }})
     </li>
     <ButtonChild @clique="$emit('corrigirpreco', id, preco)">
         Corrigir preço
