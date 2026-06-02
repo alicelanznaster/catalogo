@@ -12,7 +12,7 @@
     <div class="container">
         <h1>Alimentos</h1>
         <div class="produtos">
-            <ProdutoCard v-for="produto in produtos" :key="produto.id" :nome="produto.nome" :preco="produto.preco" :categoria="produto.categoria" :imagem="produto.imagem"> 
+            <ProdutoCard v-for="produto in produtos" :key="produto.id" :nome="produto.nome" :id="produto.id" :preco="produto.preco" :categoria="produto.categoria" :imagem="produto.imagem"> 
 
             </ProdutoCard>
         </div>

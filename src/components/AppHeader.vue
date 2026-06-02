@@ -17,10 +17,10 @@ header{
     position: fixed;
     top: 0; left: 0;
     width: 100%;
-    background: #f8f8f8;
+    background: #555454;
     z-index: 100;
     padding: 16px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #444444;
     box-sizing: border-box;
 }
 
@@ -31,7 +31,7 @@ nav{
 
 a{
     text-decoration: none;
-    color: #333;
+    color: #69ffac;
 }
 
 .router-link-active {

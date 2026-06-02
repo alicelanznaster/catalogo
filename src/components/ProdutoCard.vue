@@ -17,7 +17,7 @@
             <img :src="imagem" :alt="nome" class="produto-imagem" />
         </div>
         <ButtonChild @clique="mostrarDialog = true">Editar</ButtonChild>
-        <ProdutoDialog v-if="mostrarDialog" :nome="nome" :preco="preco" :id="id" :categoria="categoria"></ProdutoDialog>
+        <ProdutoDialog v-if="mostrarDialog" :nome="nome" :preco="preco" :id="id" :categoria="categoria" @fechar="mostrarDialog = false"></ProdutoDialog>
     </div>
 </template>
 
